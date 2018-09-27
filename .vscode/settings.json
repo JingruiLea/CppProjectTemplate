@@ -1,0 +1,6 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.debugConfig": {
+        "MIMode": "gdb"
+    }
+}

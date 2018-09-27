@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "ChessE",
+            "includePath": [
+                "${workspaceFolder}/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "vector-of-bool.cmake-tools"
+            
+        }
+    ],
+    "version": 4
+}

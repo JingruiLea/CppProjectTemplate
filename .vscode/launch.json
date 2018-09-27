@@ -1,0 +1,73 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+        "name": "test",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "/mnt/c/Users/LJR/OneDrive/ChessE/bin/test/utils_test",
+        "args": [],
+        "preLaunchTask": "build",
+        "stopAtEntry": false,
+        "cwd": "/mnt/c/Users/LJR/OneDrive/ChessE",
+        "sourceFileMap": {
+            "/mnt/c": "C:\\"
+        },
+        "environment": [],
+        "externalConsole": true,
+        "pipeTransport": {
+            "debuggerPath": "/usr/bin/gdb",
+            "pipeProgram": "${env:windir}\\system32\\bash.exe",
+            "pipeArgs": ["-c"],
+            "pipeCwd": ""
+        },
+        "setupCommands": [
+            {
+                "description": "Enable pretty-printing for gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            }
+        ]
+    },
+    {
+        "name": "chess",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "/mnt/c/Users/LJR/OneDrive/ChessE/build/chess",
+        "args": [],
+        "preLaunchTask": "build",
+        "stopAtEntry": true,
+        "cwd": "/mnt/c/Users/LJR/OneDrive/ChessE",
+        "sourceFileMap": {
+            "/mnt/c": "C:\\"
+        },
+        "environment": [],
+        "externalConsole": true,
+        "pipeTransport": {
+            "debuggerPath": "/usr/bin/gdb",
+            "pipeProgram": "${env:windir}\\system32\\bash.exe",
+            "pipeArgs": ["-c"],
+            "pipeCwd": ""
+        },
+        "setupCommands": [
+            {
+                "description": "Enable pretty-printing for gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            }
+        ]
+    }],
+    "compounds": []
+}
