@@ -9,8 +9,6 @@ elseif(UNIX)
   MESSAGE("This is Linux.")
 endif()
 
-# set(CMAKE_VERBOSE_MAKEFILE ON)
-
 AUX_SOURCE_DIRECTORY("${PROJECT_SOURCE_DIR}/test" DIR_TESTS)
 set(SRC "${PROJECT_SOURCE_DIR}/src" )
 
@@ -30,3 +28,6 @@ target_link_libraries(
 )
 
 ADD_TEST(NAME utils_test COMMAND "${PROJECT_SOURCE_DIR}/bin/test/utils_test")
+
+set_tests_properties (utils_test
+PROPERTIES FAIL_REGULAR_EXPRESSION "failed") 

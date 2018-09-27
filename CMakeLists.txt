@@ -16,6 +16,7 @@ SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 enable_testing()
 
 add_definitions(-DDEBUG)
+add_definitions(-Wwritable-strings)
 
 add_subdirectory(test)
 
