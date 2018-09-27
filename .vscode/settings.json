@@ -2,5 +2,6 @@
     "cmake.configureOnOpen": true,
     "cmake.debugConfig": {
         "MIMode": "gdb"
-    }
+    },
+    "C_Cpp.configurationWarnings": "Disabled"
 }

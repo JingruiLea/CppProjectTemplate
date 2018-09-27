@@ -3,7 +3,8 @@
         {
             "name": "ChessE",
             "includePath": [
-                "${workspaceFolder}/include"
+                "${workspaceFolder}/include",
+                "/usr/local/Cellar/cppunit/1.14.0/include"
             ],
             "defines": [
                 "_DEBUG",

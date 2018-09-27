@@ -2,7 +2,7 @@
 
 #include "utils.h"
 
-int Utils::parse(char* fen, BYTE* board) {
+int Utils::parse(char* fen, char* board) {
     char* cur = fen;
     char* next;
     for(int i=0; i<10; i++){

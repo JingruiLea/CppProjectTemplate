@@ -1,12 +1,10 @@
 #pragma once
 #include <iostream>
 
-#define BYTE char
-#define BOOL char
 class Utils {
  friend class UtilsTest;
  public:
-  static int parse(char* fen, BYTE* board);
+  static int parse(char* fen, char* board);
 
  private: 
   inline static int line2Index(int line){

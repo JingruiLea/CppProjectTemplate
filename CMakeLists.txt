@@ -32,9 +32,6 @@ elseif(UNIX)
   MESSAGE("This is Linux.")
 endif()
 
-# set(CPPUNIT_DIR "/usr/local/Cellar/cppunit")
-# FIND_PACKAGE(CPPUNIT REQUIRED)
-
 AUX_SOURCE_DIRECTORY(src DIR_SRCS)
 
 add_executable(chess
