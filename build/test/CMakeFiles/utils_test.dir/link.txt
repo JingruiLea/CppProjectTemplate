@@ -1,1 +1,0 @@
-/usr/bin/g++   -std=c++11  -O0 -Wall -g2 -ggdb -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/utils_test.dir/__/src/utils.cpp.o CMakeFiles/utils_test.dir/main.cpp.o CMakeFiles/utils_test.dir/utils_test.cpp.o  -o ../../bin/test/utils_test -lcppunit 

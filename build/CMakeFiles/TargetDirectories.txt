@@ -1,8 +1,0 @@
-/Users/jingruili/OneDrive/ChessE/build/CMakeFiles/test.dir
-/Users/jingruili/OneDrive/ChessE/build/CMakeFiles/rebuild_cache.dir
-/Users/jingruili/OneDrive/ChessE/build/CMakeFiles/edit_cache.dir
-/Users/jingruili/OneDrive/ChessE/build/CMakeFiles/chess.dir
-/Users/jingruili/OneDrive/ChessE/build/test/CMakeFiles/test.dir
-/Users/jingruili/OneDrive/ChessE/build/test/CMakeFiles/rebuild_cache.dir
-/Users/jingruili/OneDrive/ChessE/build/test/CMakeFiles/edit_cache.dir
-/Users/jingruili/OneDrive/ChessE/build/test/CMakeFiles/utils_test.dir

@@ -1,1 +1,0 @@
-/usr/bin/g++   -std=c++11  -O0 -Wall -g2 -ggdb -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/chess.dir/src/main.cpp.o CMakeFiles/chess.dir/src/utils.cpp.o  -o ../bin/chess 
