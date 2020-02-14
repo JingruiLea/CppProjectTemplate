@@ -50,8 +50,17 @@ brew install make cmake
 4. 完成!
 
 使用步骤:
-1. 运行文件
+1. 运行文件  
+点击此处:  
+![PIC1](./pics/run.png)
+运行结果:
+![PIC1](./pics/run_result.png)
+2. 测试文件  
+点击此处:  
+![PIC1](./pics/test.png)  
+测试结果:  
+![PIC1](./pics/test_result.png)  
 
-具体文件解析请参考<a target="_blank" href="https://zhuanlan.zhihu.com/p/45529097">VS Code + Cmake + CppUnit 搭建大型C++工程(二)</a>
+具体文件解析请参考 <a target="_blank" href="https://zhuanlan.zhihu.com/p/45529097">VS Code + Cmake + CppUnit 搭建大型C++工程(二)</a>
 
 感谢您的阅读. 欢迎点赞哦~
