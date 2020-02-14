@@ -1,9 +1,7 @@
 {
-    "cmake.configureOnOpen": true,
+    "cmake.configureOnOpen": false,
     "cmake.debugConfig": {
         "MIMode": "gdb"
     },
-    "C_Cpp.configurationWarnings": "Disabled",
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
-    "C_Cpp.errorSquiggles": "Disabled"
 }

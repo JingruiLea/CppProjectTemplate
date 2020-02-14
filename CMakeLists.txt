@@ -16,7 +16,7 @@ SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 enable_testing()
 
 add_definitions(-DDEBUG)
-add_definitions(-Wwritable-strings)
+add_definitions(-Wwrite-strings)
 
 add_subdirectory(test)
 
@@ -35,6 +35,6 @@ endif()
 
 AUX_SOURCE_DIRECTORY(src DIR_SRCS)
 
-add_executable(chess
+add_executable(MyProjectExecutable
    ${DIR_SRCS}
 )

@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "ChessE",
+            "name": "MyProject",
             "includePath": [
                 "${workspaceFolder}/include",
                 "/usr/local/Cellar/cppunit/1.14.0/include/"

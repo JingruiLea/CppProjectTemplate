@@ -4,5 +4,5 @@ int Utils::addFiveForTest(int num){
   return num + 5;
 }
 int Utils::addThree(int num){
-  return num - 3;
+  return num + 3;
 }
