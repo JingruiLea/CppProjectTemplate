@@ -26,9 +26,15 @@ Project:
 
 ## 2020.2.14更新
 感谢几位给我小星星的同学, 让我有动力完善下这个小框架.  
-2020年, `VS Code`已经发生了巨大的变化, 编辑器市场无人能敌. `Code`更是推出了`Remote-DevTool`大大方便了远程编程, 我们也可以借助`Remote-DevTool`通过WSL进行编程.
-在windows上通过Pipe进行WSL编程显然已经落后了, 所以, 我删除了那一部分.
+2020年, `VS Code`已经发生了巨大的变化, 编辑器市场无人能敌. `Code`更是推出了`Remote-DevTool`大大方便了远程编程, 我们也可以借助`Remote-DevTool`通过WSL进行编程.  
+在windows上通过Pipe进行WSL编程显然已经落后了, 所以, 我删除了那一部分.   
+现在可以在拓展商店搜索'Remote', 安装`Remote-WSL`:
+![PIC0](./pics/remote-wsl.png)
+然后点击左下角:  
+![PIC0](./pics/remote.png)  
+就可以按照Ubuntu的操作照常进行了! 更多细节还等着你去发现哦~  
 
+## 框架使用
 准备步骤:
 1. 使用git下载:
 ```
